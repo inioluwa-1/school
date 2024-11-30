@@ -3,36 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookstore</title>
+    <title>Bookstore Homepage</title>
 </head>
-<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; overflow: hidden;">
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
 
-    <!-- Header Section -->
-    <header style="background-color: #333; color: white; padding: 20px; text-align: center;">
-        <h1>Welcome to Our Bookstore</h1>
-        <nav>
-            <a href="index.html" style="color: white; margin: 0 15px; text-decoration: none;">Home</a>
-            <a href="about.html" style="color: white; margin: 0 15px; text-decoration: none;">About</a>
-            <a href="contact.html" style="color: white; margin: 0 15px; text-decoration: none;">Contact</a>
-        </nav>
-    </header>
+    
+    <nav style="background-color: #333; padding: 10px 0; text-align: center; display: flex; gap: 700px;">
+        <h1 style="color: white; margin-left: 10px;">OMIGA BOOKSTORE</h1>
+        <div style="margin-top: 20px;">
+            <a href="index.html" style="color: white; text-decoration: none; padding: 10px 20px; margin: 0 15px;">Home</a>
+            <a href="contact.html" style="color: white; text-decoration: none; padding: 10px 20px; margin: 0 15px;">Contact</a>
+            <a href="about.html" style="color: white; text-decoration: none; padding: 10px 20px; margin: 0 15px;">About</a>
+        </div>
+    </nav>
 
-    <!-- Main Content -->
-    <main style="padding: 20px;">
-        <h1 align="center">Welcome to our website!</h1>
-		<p>We're glad you're here. Take a look around and explore our pages.</p>
-        <h2 align="center">Best Selling Books</h2>
-        <p style="font-size: 18px;">Discover the most popular books in our collection!</p>
-        <ul style="list-style-type: none; padding: 0;">
-            <li style="margin: 10px 0; font-size: 20px;">Book 1 - The Great Gatsby</li>
-            <li style="margin: 10px 0; font-size: 20px;">Book 2 - Moby Dick</li>
-            <li style="margin: 10px 0; font-size: 20px;">Book 3 - 1984</li>
-        </ul>
-    </main>
+    <!-- Main Section with Cards -->
+    <section style="padding: 50px; text-align: center;">
+        <h1 style="color: #333;">Welcome to Our Bookstore</h1>
+        <p style="color: #666;">Discover a world of stories and knowledge.</p>
 
-    <!-- Footer Section -->
-    <footer style="background-color: #333; color: white; text-align: center; padding: 10px; position: absolute; bottom: 0; width: 100%;">
-        <p>&copy; 2024 Bookstore. All rights reserved.</p>
+        <!-- Card Container -->
+        <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+
+            <!-- Card 1 -->
+            <div style="width: 300px; background-color: #fff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px; overflow: hidden;">
+                <img src="https://via.placeholder.com/300x200" alt="Book Image 1" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 15px;">
+                    <h3 style="color: #333;">Book Title 1</h3>
+                    <p style="color: #666;">A short description of the book goes here. This is a great choice for readers who enjoy adventure.</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div style="width: 300px; background-color: #fff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px; overflow: hidden;">
+                <img src="https://via.placeholder.com/300x200" alt="Book Image 2" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 15px;">
+                    <h3 style="color: #333;">Book Title 2</h3>
+                    <p style="color: #666;">A short description of the book goes here. Dive into a world of mystery and suspense.</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div style="width: 300px; background-color: #fff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px; overflow: hidden;">
+                <img src="https://via.placeholder.com/300x200" alt="Book Image 3" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 15px;">
+                    <h3 style="color: #333;">Book Title 3</h3>
+                    <p style="color: #666;">A short description of the book goes here. Perfect for those who enjoy science fiction and futuristic worlds.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #333; color: white; text-align: center; padding: 10px 0;">
+        <p style="margin: 0;">&copy; 2024 Bookstore. All rights reserved.</p>
     </footer>
 
 </body>
